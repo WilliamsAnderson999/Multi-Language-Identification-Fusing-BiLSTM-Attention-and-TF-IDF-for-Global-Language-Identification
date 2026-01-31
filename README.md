@@ -2,7 +2,7 @@
 **Hybrid TF-IDF + BiLSTM model** – 235 languages – 93.75% accuracy
 
 <p align="center">
-  <img src="https://github.com/yourusername/language-identification/raw/main/images/Model%20Architecture.png" width="720"><br>
+  <img src="images/Model architecture (2).png" width="720"><br>
   <i>Figure 1: Hybrid TF-IDF + BiLSTM Architecture with Attention Mechanism</i>
 </p>
 
