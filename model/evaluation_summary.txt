@@ -1,0 +1,47 @@
+================================================================================
+LANGUAGE IDENTIFICATION MODEL EVALUATION SUMMARY
+================================================================================
+
+Evaluation Date: 2026-01-31 15:03:05
+Model: Hybrid TF-IDF + BiLSTM Language Identifier
+Dataset: WiLI-2018
+Number of languages: 235
+Vocabulary size: 20,002
+Total test samples: 117,500
+
+ PERFORMANCE METRICS:
+  Test Accuracy: 93.7481%
+  Test F1 Score: 93.7531%
+
+🏆 TOP 5 BEST PERFORMING LANGUAGES:
+  1. ckb - 100.00% accuracy (500 samples)
+  2. kbd - 100.00% accuracy (500 samples)
+  3. min - 100.00% accuracy (500 samples)
+  4. mlg - 100.00% accuracy (500 samples)
+  5. bod - 99.80% accuracy (500 samples)
+
+ MOST CHALLENGING 5 LANGUAGES:
+  1. wuu - 15.60% accuracy (500 samples)
+  2. zh-yue - 22.80% accuracy (500 samples)
+  3. zho - 37.00% accuracy (500 samples)
+  4. hrv - 46.80% accuracy (500 samples)
+  5. hbs - 53.80% accuracy (500 samples)
+
+ PERFORMANCE DISTRIBUTION:
+  Excellent (≥99%): 25 languages
+  Good (95-99%): 131 languages
+  Average (80-95%): 68 languages
+  Poor (<80%): 11 languages
+
+ INTERESTING FINDINGS:
+  1. Several languages achieve 100% accuracy (ckb, kbd, min, mlg)
+  2. Chinese variants are the most challenging (wuu: 15.6%, zh-yue: 22.8%)
+  3. Japanese is surprisingly challenging (56.0% accuracy)
+  4. 93.75% overall accuracy is excellent for 235 languages
+
+ RECOMMENDATIONS FOR IMPROVEMENT:
+  1. Add data augmentation for low-accuracy languages
+  2. Consider language family-based transfer learning
+  3. Ensemble methods could boost performance
+
+================================================================================
