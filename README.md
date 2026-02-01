@@ -54,25 +54,21 @@ def clean_text(text):
 
 # 1. Text Preprocessing Pipeline
 
-Raw Text →      Cleaning   →    Tokenization → TF-IDF/Sequences → Model Input
-          │                   │               │                  │
-          │    Remove special │ Word tokens   │ Character        │ Padding to
-          │    characters     │ with NLTK     │ n-grams (1-3)    │ 100 tokens
-          │                   │               │ 3000 features    │
+Raw Text → Cleaning ( Remove special with NLTK) → Tokenization(Character n-grams 1-3 ) → TF-IDF/Sequences (Padding to 100 tokens) → Model Input
 
 # 2. Neural Network Specifications
 
-¤ TF-IDF Path: 2-layer MLP with BatchNorm and ReLU
+¤ **TF-IDF Path** : 2-layer MLP with BatchNorm and ReLU
 
-¤ Sequence Path:
+¤ **Sequence Path** :
 
-    ¤Embedding Layer: 128 dimensions
+  ¤ **Embedding Layer**: 128 dimensions
 
-    ¤Bidirectional LSTM: 256 hidden units, 2 layers
+  ¤ **Bidirectional LSTM**: 256 hidden units, 2 layers
 
-    ¤Attention Mechanism: Context weighting
+  ¤ **Attention Mechanism**: Context weighting
 
-¤ Classifier: 3-layer MLP with dropout (0.3)
+¤ **Classifier**: 3-layer MLP with dropout (0.3)
 
 # 3. Model Statistics
 
