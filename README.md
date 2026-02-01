@@ -54,11 +54,11 @@ def clean_text(text):
 
 # 1. Text Preprocessing Pipeline
 
-Raw Text → Cleaning → Tokenization → TF-IDF/Sequences → Model Input
-    │         │           │              │              │
-    │    Remove special │ Word tokens   │ Character    │ Padding to
-    │    characters     │ with NLTK     │ n-grams (1-3)│ 100 tokens
-    │                   │               │ 3000 features│
+Raw Text →      Cleaning   →    Tokenization → TF-IDF/Sequences → Model Input
+          │                   │               │                  │
+          │    Remove special │ Word tokens   │ Character        │ Padding to
+          │    characters     │ with NLTK     │ n-grams (1-3)    │ 100 tokens
+          │                   │               │ 3000 features    │
 
 # 2. Neural Network Specifications
 
