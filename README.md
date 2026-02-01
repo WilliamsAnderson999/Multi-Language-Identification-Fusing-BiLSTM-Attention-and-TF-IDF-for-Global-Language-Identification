@@ -262,8 +262,8 @@ This will:
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/language-identification.git
-cd language-identification
+git clone https://github.com/WilliamsAnderson999/Multi-Language-Identification-Fusing-BiLSTM-Attention-and-TF-IDF-for-Global-Language-Identification.git
+cd language-id
 
 # 1. Virtual environment
 python -m venv venv
@@ -276,4 +276,45 @@ pip install -r requirements.txt
 
 # 3. Download NLTK data (only once)
 python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
+
+```
+
+
+## Academic References
+
+## Dataset
+* WiLI-2018: Wikipedia Language Identification benchmark
+
+* 235 languages, 235,000+ text samples
+
+* Balanced across languages (500 test samples each)
+
+## Model Architecture References
+¤ TF-IDF n-gram for Language ID:
+
+- Tommi Jauhiainen et al., "Language identification in texts" (2019)
+
+¤ LSTM for Sequence Classification:
+
+- Hochreiter & Schmidhuber, "LSTM" (1997)
+
+- Graves et al., "BiLSTM" (2005)
+
+¤ Attention Mechanisms:
+
+- Ashish Vaswani et al., "Attention is All You Need" (2017)
+
+- Dzmitry Bahdanau et al., "Neural Machine Translation" (2015)
+
+## Implementation References
+
+¤ **PyTorch**: https://pytorch.org
+
+¤ **Scikit-learn**: https://scikit-learn.org
+
+¤ **Gradio**: https://gradio.app
+
+¤ **NLTK**: https://www.nltk.org
+
+
 
