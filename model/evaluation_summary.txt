@@ -1,6 +1,5 @@
-================================================================================
+
 LANGUAGE IDENTIFICATION MODEL EVALUATION SUMMARY
-================================================================================
 
 Evaluation Date: 2026-01-31 15:03:05
 Model: Hybrid TF-IDF + BiLSTM Language Identifier
@@ -13,7 +12,7 @@ Total test samples: 117,500
   Test Accuracy: 93.7481%
   Test F1 Score: 93.7531%
 
-🏆 TOP 5 BEST PERFORMING LANGUAGES:
+TOP 5 BEST PERFORMING LANGUAGES:
   1. ckb - 100.00% accuracy (500 samples)
   2. kbd - 100.00% accuracy (500 samples)
   3. min - 100.00% accuracy (500 samples)
@@ -44,4 +43,3 @@ Total test samples: 117,500
   2. Consider language family-based transfer learning
   3. Ensemble methods could boost performance
 
-================================================================================
