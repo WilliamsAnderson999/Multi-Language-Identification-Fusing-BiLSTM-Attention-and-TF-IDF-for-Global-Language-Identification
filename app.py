@@ -1,5 +1,5 @@
 """
-Web interface for language identification using Gradio
+Web interface for language identification 
 """
 
 import gradio as gr
